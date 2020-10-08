@@ -2,8 +2,10 @@
 ## Team
   宮國龍之介
 ## Product
-  パソコンのカメラを使って手のモーションを読み取り特定の処理を実行するAIの作成
-  処理の内容としては、meetやzoomなどのマイク・画面の on off の切り替えなど
+  kaggle Competition 
+    [Riiid! Answer Correctness Prediction](https://www.kaggle.com/c/riiid-test-answer-prediction)
+  に参加して予測モデルを作る
+    
 ## Schedule
 ### 2020
     8/01 ~ 8/14 
