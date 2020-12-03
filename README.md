@@ -1,4 +1,4 @@
-# sotuken
+# Graduation Task
 ## Team
   宮國龍之介
 ## Product
