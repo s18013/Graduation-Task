@@ -32,4 +32,6 @@
 - 01/15 ~ 発表日
   - プレゼンできてたら練習
 
-## Research record
+## Research Record
+- 12/5
+  - 
