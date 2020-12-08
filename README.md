@@ -38,6 +38,6 @@
   - Competitions 提出テスト(できるかどうかの確認のため、軽量版のmodelを使用　accuracy 0.628)
 - 12/7 ~ 12/8
   - 仮説
-    - LGBMより重要度ランキング
+    - ![LGBMより重要度ランキング](https://github.com/s18013/Graduation-Task/blob/master/images/feature_importance.pdf)
     
 
