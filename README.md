@@ -2,10 +2,10 @@
 ## Team
   宮國龍之介
 ## Product
-  kaggle Competition 
+  kaggle Competition
     [Riiid! Answer Correctness Prediction](https://www.kaggle.com/c/riiid-test-answer-prediction)
   に参加して予測モデルを作る
-    
+
 ## Schedule
 ### 2020 - 2021
 - 10/08 ~ 10/11 **complet**
@@ -37,7 +37,24 @@
 - 12/5 ~ 12/6
   - Competitions 提出テスト(できるかどうかの確認のため、軽量版のmodelを使用　accuracy 0.628)
 - 12/7 ~ 12/8
-  - 仮説
-    - ![LGBMより重要度ランキング](https://github.com/s18013/Graduation-Task/blob/master/images/feature_importance.pdf)
-    
+  - 結果(とりあえず作ったLGBMより)
+    - ![LGBM(accuracy 0.720)より重要度ランキング](https://github.com/s18013/Graduation-Task/blob/master/images/feature_importance.pdf)
+    - 上記の結果より
+      - prior_question_elapsed_time(前の問題からの経過時間)の重要度が高い
+      - question_asked(コンテンツごとの質問数)も高い
+      - コンテンツごとの正解の平均、標準偏差、歪度の順で高い
+  - 考察
+    - 問題を解くまでの時間が予測の関係性をが高いのはなんとなく分かる、次点でのコンテンツごとの質問数重要度が高い理由がいまいち不明(下記よりコンテンツごとに高い相関関係があることと関係があるやも)
+    - コンテンツごとの平均、標準偏差、歪度の重要度が僅差で高いことから何らかの相関関係があると思われる
+    - 中央値の価値が低いのはそのほとんどが1.0であるためと思われる
+    - ユーザーごとの平均、標準偏差、歪度も予測に使用しているがコンテンツごとのそれよりも高い成果を得られていない
+    - prior_question_had_explanation(質問の後の講義を見たかどうか)はすごく高い訳ではないが数値が出ているので今後のデータのバリエーションを増やした時どうなるかで判断していきたい
 
+  - 仮説
+    - コンテンツごとの質問の数であったり平均、標準偏差、歪度が高いためユーザーごとよりも重要
+    - 平均、標準偏差、歪度より正規分布のありようが重要
+    - 問題を解くまでの時間はコンテンツごとユーザーごと関係なく重要
+
+  - 次の実験内容
+    - LGBMに入れるデータのバリエーションを増やしてそのほかの重要な要素を探る(仮説よりコンテンツごとをメインにと、尖度なども探る)
+    - 重要度の高かった上位5件をNNに正解率との差分とともに食わせる
