@@ -1,4 +1,8 @@
 # Graduation Task
+## Notice
+  githuでjupyterが上手く動かないかもしれません
+  お手数ですが clone して下さい(python file にvscode上でexportする機能がバグっているため用意出来ません)
+  google drive 上にも置いておきますので、colaboratoryで開けるかと思います
 ## Team
   宮國龍之介
 ## Product
