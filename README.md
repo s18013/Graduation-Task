@@ -93,3 +93,31 @@
 
   - 次の実験内容
     - いっぱいバリエーション集めたいのでLGBMに絞って、ほかの参加者のnotebookも参考に集める
+
+- 12/12 ~ 12/24
+  - kaggle の他参加者の方法まとめ(LGBMの結果から重要度のたかいものを抜粋)
+    - ![1](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person.png)
+    - ![2](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person2.png)
+    - ![3](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person3.png)
+    - ![4](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person4.png)
+    - ![5](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person5.png)
+
+  - 上記より
+    - とりあえず各1位について
+    - 1 content_correctness
+      - contentごとにグループ化された、正解率
+    - 2 answered_correctly_avg_c
+      - contentごとにグループ化された、正解率の平均
+    - 3 timestamp_u_recency
+      - timestamp は、それまでのユーザーの総操作時間、uはユーザー
+    - 4 content_correctness
+      - 1と一緒
+    - 5 tags1
+      - question.csv の分類分けてのタグ
+
+- 12/25 ~ 1/7
+  - SAKT + LGBM が高いスコアを出してきたため、勉強します
+
+- 1/8 ~ 1/30
+  - 結果として、SAKTに乗り換える前にコンペの終了
+  - 研究のまとめとプレゼン準備
