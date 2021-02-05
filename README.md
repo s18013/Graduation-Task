@@ -96,11 +96,11 @@
 
 - 12/12 ~ 12/24
   - kaggle の他参加者の方法まとめ(LGBMの結果から重要度のたかいものを抜粋)
-    - ![1](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person.png)
-    - ![2](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person2.png)
-    - ![3](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person3.png)
-    - ![4](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person4.png)
-    - ![5](https://github.com/s18013/Graduation-Task/blob/master/images/FN_another_person5.png)
+    - <1>![1](https://github.com/s18013/Graduation-Task/blob/master/images/FI_another_person.png)
+    - <2>![2](https://github.com/s18013/Graduation-Task/blob/master/images/FI_another_person2.png)
+    - <3>![3](https://github.com/s18013/Graduation-Task/blob/master/images/FI_another_person3.png)
+    - <4>![4](https://github.com/s18013/Graduation-Task/blob/master/images/FI_another_person4.png)
+    - <5>![5](https://github.com/s18013/Graduation-Task/blob/master/images/FI_another_person5.png)
 
   - 上記より
     - とりあえず各1位について
